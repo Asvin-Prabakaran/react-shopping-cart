@@ -1,0 +1,24 @@
+.container{
+    background-image: url(https://wallpaperaccess.com/full/250476.jpg);
+    padding: 20px;
+}
+.card{
+    padding: 10px;
+    border: 2px black solid 3px;
+    background-image: url(https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+}
+
+.card-body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+.button{
+    border-radius: 6px;
+    background-color: rgb(107, 26, 26);
+    transition: transform 0.3s;
+}
+.button:hover{
+    transform: translateY(-10px);
+    background-color: rgb(212, 87, 87);
+}
